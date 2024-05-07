@@ -57,4 +57,5 @@ dependencies {
     implementation("com.google.firebase:firebase-storage-ktx:21.0.0")
     implementation("androidx.activity:activity:1.7.0")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
 }

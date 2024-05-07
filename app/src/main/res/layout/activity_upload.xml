@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/addRecipePhoto"
+        android:layout_marginTop="68dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="8dp"
+        android:clickable="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/baseline_broken_image_24"
+
+        />
+
+    <EditText
+        android:id="@+id/commendText"
+        android:layout_width="285dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Comment"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/addRecipePhoto"
+        app:layout_constraintStart_toStartOf="@+id/addRecipePhoto"
+        app:layout_constraintTop_toBottomOf="@+id/addRecipePhoto" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="upload"
+        android:text="Upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commendText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

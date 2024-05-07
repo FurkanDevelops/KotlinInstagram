@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772787692747",
+    "project_id": "kotlininstaclone-ff4d1",
+    "storage_bucket": "kotlininstaclone-ff4d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772787692747:android:c27da54595efb283b6674e",
+        "android_client_info": {
+          "package_name": "com.furkancolak.kotlininstagram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNF2AUcGYKSFYiAoVZvjU9j04xOOvoJrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
